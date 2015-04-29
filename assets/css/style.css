@@ -1,0 +1,130 @@
+body {
+	font-size: 14px;
+	font-family: "微软雅黑", verdana, geneva, sans-serif;
+	background: #bddeef;
+	color: #666;
+}
+pre {
+	font-size: 12px;
+	font-family: "微软雅黑", verdana, geneva, sans-serif;
+	color: #666;
+}
+a:hover, a:active {
+	text-decoration: none;
+}
+.top {
+	height: 100px;
+}
+.top h2 {
+	line-height: 100px;
+	color: #566F89;
+	text-shadow: 1px 1px 0 #E4F1FF;
+}
+.footer {
+	color: #666;
+	text-shadow: 0 -1px 0 #fff;
+}
+.footer a {
+	color: #666;
+	text-shadow: 0 -1px 0 #fff;
+}
+.footer a:hover {
+	color: #666
+}
+.brand {
+	text-shadow: 0 -1px 0 #fff;
+}
+.nav-list>.active>a, .nav-list>.active>a:hover, .nav-list>.active>a:focus {
+	background-color: #9C0;
+}
+.w_bg {
+	padding: 10px 20px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	/* rounded corner */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/* box shadow */
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+.btn, input, select, textarea {
+	font-family: "微软雅黑", verdana, geneva, sans-serif;
+	vertical-align: middle;
+}
+.breadcrumb {
+	margin-top: 10px;
+}
+.ico_list {
+	padding: 0 20px;
+}
+.ico_list li {
+	height: 80px;
+	font-size: 16px;
+}
+.ico_list img {
+	margin: 0 15px;
+}
+.table thead th, .table tfoot td {
+	background-color: #f5f5f5;
+}
+.table tfoot td {
+	text-align: right;
+}
+.multipleSelectBoxControl span {
+	font-family: "微软雅黑", verdana, geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.multipleSelectBoxControl div select {
+	font-family: "微软雅黑", verdana, geneva, sans-serif;
+	height: 100%;
+}
+.multipleSelectBoxControl input {
+	width: 25px;
+}
+.multipleSelectBoxControl div {
+	float: left;
+}
+.pager {
+	padding: 3px;
+	margin: 0 3px;
+	text-align: right;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+.pager a {
+	border: #ddd 1px solid;
+	padding: 2px 5px;
+	margin-right: 2px;
+	color: #88af3f;
+	text-decoration: none;
+}
+.pager a:hover {
+	border: #85bd1e 1px solid;
+	background-color: #f1ffd6;
+	color: #638425;
+}
+.pager a:active {
+	border: #85bd1e 1px solid;
+	background-color: #f1ffd6;
+	color: #638425;
+}
+.pager span.current {
+	border: #b2e05d 1px solid;
+	padding: 2px 5px;
+	margin-right: 2px;
+	background-color: #b2e05d;
+	font-weight: bold;
+	color: #fff;
+}
+.pager span.disabled {
+	border: #f3f3f3 1px solid;
+	padding: 2px 5px;
+	margin-right: 2px;
+	color: #ccc;
+}
+.pagefont {
+	font-family: "微软雅黑", verdana, geneva, sans-serif;
+}

@@ -1,0 +1,135 @@
+body {
+	font-size: 12px;
+	font-family: "微软雅黑", verdana, geneva, sans-serif;
+	<!--background: #97d6f1 url(/assets/images/header-tile.jpg) repeat-x center bottom fixed;-->
+	background-color:#f2f2f2;
+	color: #fff;
+	padding-top:20px;
+}
+
+.imgstyle{
+	-webkit-box-shadow: 2px 2px 1px rgba(0,0,0,.4);
+	-moz-box-shadow: 2px 2px 1px rgba(0,0,0,.4);
+	box-shadow: 2px 2px 1px rgba(0,0,0,.4);
+}
+
+.card_title{
+	position:absolute;
+	top:40px;
+	left:40px;
+	font-size:16px;
+	font-weight:bold;
+	color:#030;
+}
+.card_vip{
+	position:absolute;
+	top:100px;
+	left:65px;
+	font-size:30px;
+	font-weight:bold;
+}
+.card_num{
+	position:absolute;
+	top:140px;
+	right:40px;
+	font-family:verdana, geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.type_list_table,.type_list_table td{
+	color:#666;
+	text-align:center;
+	margin-bottom:0;
+}
+
+.top_city{
+	position:relative;
+	top: 0;
+	left: 0;
+	font-size:14px;
+	height:30px;
+	padding:5px 15px;
+	background-color:#fff;
+	color:#666;
+	margin-bottom:3px;
+}
+
+
+.code_btn_bg{
+	width:150px;
+	text-align:center;
+	padding:5px 10px;
+	margin:0 auto;
+	font-size:20px;
+}
+.code_btn_bg2{
+	width:222px;
+	text-align:center;
+	padding:5px 10px;
+	margin:0 auto;
+	font-size:14px;
+}
+.code_btn{
+	font-size:14px;
+	font-weight:bold;
+	padding:0;
+	margin:5px;
+}
+.city-bg{
+	border-bottom:1px #ccc solid;
+	padding:5px 0;
+	text-align:center;
+}
+.btn-link{
+	color:#333;
+	font-size:16px;
+}
+.city_bg{
+	background-color:#fff;
+	border:1px #ccc solid;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom:20px;
+}
+
+.logo{
+	height:30px;
+	width:30px;
+	margin-right:10px;
+	padding:4px;
+	/* rounded corner */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color:#fff;
+}
+.accordion_headings{
+	padding:10px;
+	background:#f1f1f1;
+	color:#3d3e40;
+	cursor:pointer;
+	font-weight:bold;
+	border-bottom:1px #ccc dotted;
+}
+
+.accordion_headings:hover{
+	background:#eee;
+}
+
+.accordion_child{
+	padding:15px;
+	color:#666;
+	background:#fff;
+	border-bottom:1px #ccc dotted;
+	-moz-box-shadow:   0px 3px 5px #ccc inset;               /* For Firefox3.6+ */
+	-webkit-box-shadow:0px 3px 5px #ccc inset;            /* For Chrome5+, Safari5+ */
+	box-shadow:        0px 3px 5px #ccc inset; 
+}
+
+.header_highlight{
+	background:#eee;
+}
+
+
+.kootip{color:red;line-height:26px;}
